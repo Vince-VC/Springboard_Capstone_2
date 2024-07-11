@@ -1,0 +1,39 @@
+Neural Network Model Metrics
+
+
+
+Best Parameters: {'activation': 'relu', 'alpha': 0.41611594308786626, 'hidden_layer_sizes': (50, 50, 50), 'learning_rate': 'constant', 'learning_rate_init': 0.03766815128463097, 'solver': 'sgd'}
+
+
+
+Best Cross-Validation Score: 0.9328
+
+
+
+Scoring Metrics:
+
+	         precision   recall  f1-score   support
+
+           0       0.98      0.93      0.95      1035
+           1       0.82      0.95      0.88       374
+
+    accuracy                           0.93      1409
+   macro avg       0.90      0.94      0.92      1409
+weighted avg       0.94      0.93      0.94      1409
+
+
+
+Feature Importance (Top 10):
+
+Feature                        Importance          Absolute Importance
+Dependents_Yes                 0.157288            0.157288
+Satisfaction Score             0.113037            0.113037
+Offer_Offer E                  -0.112718           0.112718
+Contract_Two Year              0.095748            0.095748
+Tenure in Months               0.094930            0.094930
+Offer_Offer D                  0.084382            0.084382
+Married_Yes                    0.083249            0.083249
+Referred a Friend_Yes          0.078505            0.078505
+Offer_Unknown/None             -0.074026           0.074026
+Premium Tech Support_Yes       0.072538            0.072538
+
